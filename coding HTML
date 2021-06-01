@@ -6,12 +6,12 @@
 	<title>Game Tebak Angka</title>
 	<link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body bgcolor="#84888b">
 	<div class="jumbotron" style="background-color: hsl(0, 0%, 94%);">
   	<div class="container">
-		<h3 class="title">Tebak Angka (1 - 10)</h3>
+		<h2 class="title">Permainan Tebak Angka (1 - 10)</h2>
 		<br>
-		<h3 class="Komputer">?</h3>
+		<h2 class="Laptop">?</h2>
 		<input type="text" class="input-user">
 		<br>
 		<button type="submit" class="kirim">Submit</button>
