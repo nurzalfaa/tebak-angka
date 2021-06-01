@@ -5,7 +5,7 @@ const hasil = document.querySelector('.container .hasil');
 
 var counter = 3;
 var comp = Math.round(Math.random() * 10 + 1);
-
+console.log(comp);
 
 function result(player, komputer)
 {
