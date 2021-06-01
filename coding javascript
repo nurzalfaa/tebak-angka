@@ -50,7 +50,7 @@ function result(player, komputer)
 	}
 }
 
-kirim.addEventListener('button',function()
+kirim.addEventListener('click',function()
 {
 	result(input.value, comp);
 });
