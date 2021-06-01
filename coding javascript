@@ -5,8 +5,6 @@ const hasil = document.querySelector('.container .hasil');
 
 var counter = 3;
 var comp = Math.round(Math.random() * 10 + 1);
-console.log(comp);
-
 
 
 function result(player, komputer)
@@ -46,14 +44,13 @@ function result(player, komputer)
 			hasil.style.color = 'cyan';
 			hasil.innerHTML = "Maaf, Anda Salah!";
 			comp.innerHTML = komputer;
-			// setAttribute digunakan untuk mengatur atau menambahkan atribut ke dalam elemen dan memberikan nilai pada elemen tersebut
 			input.setAttribute('disabled',true);
 			return;
 		}
 	}
 }
 
-kirim.addEventListener('click',function()
+kirim.addEventListener('button',function()
 {
 	result(input.value, comp);
 });
